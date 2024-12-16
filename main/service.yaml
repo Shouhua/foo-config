@@ -6,5 +6,5 @@ spec:
   selector:
     app: signalr-affinity
   ports:
-    - port: 8000
+    - port: 80
       targetPort: 9000
