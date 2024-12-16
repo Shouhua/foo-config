@@ -4,12 +4,8 @@ metadata:
   name: ingress-signalr-affinity
 spec:
   ingressClassName: nginx
-  tls:
-    - hosts:
-      - sa.example.com
-      secretName: tls-cert
   rules:
-  - host: sa.example.com
+  - host: localhost
     http:
       paths:
         - path: /
